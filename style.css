@@ -1,6 +1,6 @@
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
@@ -8,46 +8,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(10, 78, 80);
+    background-color: #7e3e1c;
 }
 
 .cartao {
-    width: 260 ;
-    height: 200;
-
+    width: 260px;
+    height: 200px;
 }
 
 .cartao-imagem {
-    width: 100;
-     border-radius: 10px ;
+    width: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(194, 221, 245);
+    background-color: #f5f2f2;
 }
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
 .cabecalho-link {
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
 h1 {
-    color: black;
+    color: #fff;
     font-size: 24px;
 }
 
 footer {
-    background-color: rgb(99, 146, 234);
+    background-color: #7e3e1c;
     padding: 15px 25px;
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .cartao-interno {
@@ -61,9 +61,9 @@ footer {
 }
 
 .cartao-frente, .cartao-verso {
-    position: relative;
+    position: absolute;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgb(129, 129, 129);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     backface-visibility: hidden;
 }
 
